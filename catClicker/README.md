@@ -1,14 +1,19 @@
 # Cat-Clicker
-In order to use this app, click on the name of the cat that you would like to see and their picture will appear on the right. 
+In order to use this app, click on the name of the cat that you would like to see and their picture will appear on the right. Click on the "Admin" button and three input boxes will appear. These boxes will allow you to change the name of the cat, the picture, and # of clicks on each cats' picture. Click the "save" button to save your changes to the cat and the "cancel" button to discard the changes.
 
-The app is created with JavaScript. The cats' information is stored in an array of objects. Each cat is an object 
-with name, number of clicks, and imageURL properties. These properties are stored in the "cat" object constructor.
-I used the object constructor because I like having the option to easily add properties without having to add the property name to each object in the array. 
+This is the same project as the project within my Cat-Clicker repository, but with an admin button that allows the user to change the cats' information. The JavaScript is also now organized within a MVC (Model, View, Controller) architecture. 
 
-A for loop is used to loop though the cats in the cats array. For each cat, a li element is created. This li element is appended
-to a unordered list on the index.html document. 
+The cats' information is still stored in an array of objects, but within the object called model. Each cat is an object 
+with name, number of clicks, and imageURL properties. 
 
-I used an "iife" (Immediately-Invoked-Function-Espression) to create a click event listener that displays the corresponding cats' properties. This was my first time using an iife.
+Within the "view" objects is:
+
+1. the for loop used to loop through the cat's arrays,
+2. the click event listeners for the buttons and cat names (created with an iife/ Immediately-Invoked-Function-Expression), and
+3. the functions that change the cats' information when the "save" or "cancel" buttons are clicked,
+
+The variables and functions within the model and view objects communicate with each other via the "octopus" object. The "octopus" object is the controller in the MVC architecture.  
+
 
 
 
