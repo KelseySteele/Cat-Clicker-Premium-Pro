@@ -1,4 +1,4 @@
-# Cat-Clicker
+# README.md
 In order to use this app, click on the name of the cat that you would like to see and their picture will appear on the right. Click on the "Admin" button and three input boxes will appear. These boxes will allow you to change the name of the cat, the picture, and # of clicks on each cats' picture. Click the "save" button to save your changes to the cat and the "cancel" button to discard the changes.
 
 This is the same project as the project within my Cat-Clicker repository, but with an admin button that allows the user to change the cats' information. The JavaScript is also now organized within a MVC (Model, View, Controller) architecture. 
