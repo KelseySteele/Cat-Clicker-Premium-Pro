@@ -1,0 +1,61 @@
+#catImage{
+    width: 50%;
+}
+
+.catNames{
+    float: left;
+    width: 20%;
+    margin-right: 30px;
+}
+
+.catDisplay{
+    float: left;
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+h1{
+    color: #006666;
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+h2{
+    color: #666666;
+    font-family: sans-serif;
+}
+
+ul{
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: -30px;
+}
+
+.container{
+-webkit-align-self: center; /* Safari 7.0+ */
+    align-self: center;
+}
+
+.catContainer {
+ width: 80%;
+  margin: 0 auto 0 auto;
+  
+}
+
+.header{
+    text-align: center;
+    width: 60%;
+}
+
+button{
+    background-color: #006666;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 7px;
+}

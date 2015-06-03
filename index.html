@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kelsey's Cat Clicker App</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div class= 'container'>
+    <div class= 'header'>
+        <h1>Kelsey's Cat Clicker</h1>
+            <p>Click on the cat's name to display the cat's image.</p>
+    </div>
+
+    <div class= 'catContainer'>
+    <div class= 'catNames'>
+        <h2>List of Cats</h2>
+            <ul id= 'names'>
+            </ul>
+        <button id='adminBtn'>Admin</button>
+    
+    <div id= 'admin'>
+        <form id= 'adminForm'>
+            <p>Cat Name:  <input type= 'text' class= 'adminInput' id= 'adminCatName'></p>
+            <p>Img Url:   <input type= 'text' class= 'adminCatUrl' id= 'adminCatURL'></p>
+            <p># Clicks:  <input type= 'text' class= 'adminCatClicks' id= 'adminCatClicks'></p>
+        </form>
+            <button id= 'adminCancel'>Cancel</button>
+            <button id= 'adminSave'>Save</button>
+    </div>
+    </div>
+
+    <div class= 'catDisplay'>
+        <h2 id= 'catName'></h2>
+            <img src="" id='catImage' alt="cute cat">
+            <p id= 'displayClicks'></p> 
+    </div>
+
+    
+    </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
